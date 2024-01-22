@@ -72,7 +72,7 @@ class MainMenu(tk.Tk):
         self.geometry('300x100')
         state_select = tk.Radiobutton(self, text="USA State Capitals Mode", variable=self.is_world,
                                       value=0, command=self.enableGame)
-        world_select = tk.Radiobutton(self, text="World Cities Mode", variable=self.is_world,
+        world_select = tk.Radiobutton(self, text="World Cities Mode (WIP)", variable=self.is_world,
                                       value=1, command=self.enableGame)
         state_select.pack()
         world_select.pack()
