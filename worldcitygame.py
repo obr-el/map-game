@@ -1,3 +1,6 @@
+"""
+WIP, more cities will be added later.
+"""
 import citygame
 
 
